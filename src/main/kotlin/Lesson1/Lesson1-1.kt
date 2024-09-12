@@ -2,12 +2,12 @@ package Lesson1
 
 fun main () {
     // Количество ордеров
-    var quantityOfOrder = 75;
+    val quantityOfOrder = 75
 
-    val purchase: String = "Thank you for purchase " ;
-    val order: String = " order";
+    val purchase  = "Thank you for purchase "
+    val order = " order"
 
 
-    println(purchase+quantityOfOrder+order);
+    println(purchase+quantityOfOrder+order)
 
 }
