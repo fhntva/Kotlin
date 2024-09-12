@@ -14,9 +14,9 @@ fun main ()
 
    val averageSalaryOfAll = allmoney/(workersQuan+internQuan)
 
-   println( "Расходы на ЗП постоянных работников = "+ mainWorkersFullSalary )
-   println( "Расходы на ЗП стажеров = "+ allmoney )
-   println( "Расходы на ЗП после прихода стажеров = "+ averageSalaryOfAll )
+   println( "Расходы на ЗП постоянных работников = $mainWorkersFullSalary")
+   println ( "Расходы на ЗП стажеров = $allmoney" )
+   println( "Расходы на ЗП после прихода стажеров = $averageSalaryOfAll")
 
 
 
