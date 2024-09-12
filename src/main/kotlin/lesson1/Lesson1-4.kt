@@ -17,4 +17,5 @@ fun main()
     println(lenght)
     println (""+age+"\n"+partofday+"\n"+partofyear+"\n"+ apogee)
     // ахуенно нихуя не складывается
+    //not worked tested commit
 }
