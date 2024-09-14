@@ -5,17 +5,17 @@ package lesson3
 
 fun main ()
 {
-            val corA: String = "E2"
-            val corB: String = "E4"
-            val step: String = "1"
+            val corA = "E2"
+            val corB = "E4"
+            val step = "1"
 
-        println( "Ход из "+ corA + " В " + corB +" номер хода "+ step  )
+        println("Ход из $corA В $corB номер хода $step")
 
-        val corA1: String = "E2"
-        val corB1: String = "E4"
-        val step1: String = "2"
+        val corA1 = "E2"
+        val corB1 = "E4"
+        val step1 = "2"
 
-        println( "Ход из "+ corA1 + " В " + corB1 +" номер хода "+ step1   )
+        println("Ход из $corA1 В $corB1 номер хода $step1")
 
 }
 
