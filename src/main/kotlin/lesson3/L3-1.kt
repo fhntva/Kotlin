@@ -6,7 +6,7 @@ fun main ()
   val helloN = "Доброй ночи"
   val userName = "BitterDream"
     val space = " "
-                        //вывод приветствия пользователя в зависимости от времени суток.
+                        //вывод приветствия пользователя в зависимости от времени суток
     println(helloE+space+userName);println(helloN+space+userName)
 
 
