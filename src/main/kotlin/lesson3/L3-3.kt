@@ -4,8 +4,8 @@ package lesson3
 
 fun main ()
 {
-    var calc = 1;
-    val number = 6;
+    var calc = 1
+    val number = 6
 
     for (i in 1..9)
     {
