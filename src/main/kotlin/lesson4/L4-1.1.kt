@@ -16,4 +16,5 @@ fun main()
         println("Доступность столиков на сегодня : "+rentToday)
         println("Доступность столиков на завтра : "+rentTomorr)
 
+
 }
