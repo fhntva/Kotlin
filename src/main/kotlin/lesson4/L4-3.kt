@@ -5,7 +5,7 @@ fun main ()
 {
     val weather = "sunny";val openTent = "open";val airHumidity = "20%"
 
-    val seasonSum =  "summer"
+    val seasonSum = "summer" // использовать условия для сравнение != winter
     val seasonAut = "autumn"
     val seasonSpr = "spring"
 
