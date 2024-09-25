@@ -20,7 +20,7 @@ fun main() {
 
         var something = readln().toString()
 
-       // val check = arrVegetables.filter { it.equals(something) }
+       // val check = arrVegetables.filter { it.equals(something)  }
 
 
         if (arrVegetables.contains(something))
