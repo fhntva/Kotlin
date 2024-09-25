@@ -10,8 +10,9 @@ fun main() {
     var elemofArr = readln().toInt()
 
     var arrVegetables = arrayOfNulls<String>(elemofArr)
+    var sukaCounter = 1
     for (i in arrVegetables.indices) {
-        var sukaCounter = 1
+
         println("Введите элемент " + sukaCounter++)
         var newElement = readln().trim()
 
