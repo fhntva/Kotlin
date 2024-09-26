@@ -5,7 +5,7 @@ fun main() {
 
     println("Список ингридиентов, что из этого вы хотите заменить")
 
-    for (i in 1..25)
+    for (i in 1..2)
     {
 
         for (s in arrVegetables.indices)
