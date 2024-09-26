@@ -12,6 +12,12 @@ fun main()
 
 
     println(random)
+    val sad = ""
+    val see = ""
+    if (sad in see )
+    {
+        println("it work")
+    }
 
 
 }
