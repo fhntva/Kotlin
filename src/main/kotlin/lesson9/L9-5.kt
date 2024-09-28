@@ -4,7 +4,12 @@ fun main() {
 
 
     println("Введите 5 элементов друг за другом")
-    var setMe = mutableListOf(readln(), readln(), readln(), readln(), readln())
-    println(setMe.toSet().sorted().map { it.capitalize() }) // удаляет дубликаты set // сортирует по порядку // заглавные буквы
+    val setMe = mutableListOf(readln(), readln(), readln(), readln(), readln())
+    var setMeCopy = setMe.toSet().sorted().toMutableList() // удаляет дубликаты set // сортирует по порядку // заглавные буквы .map { it.capitalize() }
+    var int = setMeCopy.get(0).toString().replaceFirstChar { it.uppercaseChar() }
+    setMeCopy[0] = int
+
+    println(setMe) //"первый массив"
+    println(setMeCopy) // "измененный массив"
 
 }
