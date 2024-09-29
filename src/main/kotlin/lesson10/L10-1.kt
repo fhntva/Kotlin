@@ -1,7 +1,6 @@
 package lesson10
 
-fun main()
-{
+fun main() {
     println("Пользователь и компуктер бросают кубики")
     println("Бросает кожаный мешок")
     println("Бросает компуктер")
@@ -9,10 +8,6 @@ fun main()
 
 
 }
-
-
-
-
 
 
 fun randMe(): Int {
@@ -25,16 +20,13 @@ fun randMe(): Int {
 fun whoWIn() {
     val playerR: Int = randMe()
     val compR: Int = randMe()
-    if (playerR > compR)
-    {
+    if (playerR > compR) {
         println("Победил кожаный мешок. Мешок$playerR Пк $compR")
     }
-    if (playerR<compR)
-    {
+    if (playerR < compR) {
         println("Победило компуктер. Мешок$playerR Пк $compR")
     }
-    if (playerR==compR)
-    {
+    if (playerR == compR) {
         println("У нас ничья. Мешок$playerR Пк $compR ")
     }
 

@@ -3,11 +3,11 @@ package lesson10
 fun main() {
 
     println("Введите логин")
-    var checker = readln().toString()
+    var checker = readln()
 
     if (validation(checker)) {
         println("Введите пароль")
-        checker = readln().toString()
+        checker = readln()
         if (validation(checker)) {
             println("Добро пожаловать")
 
