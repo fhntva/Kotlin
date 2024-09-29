@@ -9,7 +9,7 @@ fun main() {
     var int = setMeCopy.get(0).toString().replaceFirstChar { it.uppercaseChar() }
     setMeCopy[0] = int
 
-    println(setMe) //"первый массив"
-    println(setMeCopy) // "измененный массив"
+    println(setMe) //первый массив
+    println(setMeCopy) // измененный массив
 
 }
