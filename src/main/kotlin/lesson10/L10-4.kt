@@ -1,5 +1,6 @@
 package lesson10
 
+
 fun main() {
     println("Пользователь и компуктер бросают кубики") //whoWin/ L10-1 Function
     var humanwins = 0
@@ -18,7 +19,6 @@ fun main() {
         }
 
     } while (1 > 0)
-
 }
 
 
