@@ -10,24 +10,28 @@ fun main() {
 }
 
 
-fun randMe(): Int {
+
+fun randMe1to99(): Int {
     val diap = 1..99
     val random = diap.random()
     return random
 
 }
 
-fun whoWIn() {
-    val playerR: Int = randMe()
-    val compR: Int = randMe()
+fun whoWIn():String {
+    val playerR: Int = randMe1to99()
+    val compR: Int = randMe1to99()
     if (playerR > compR) {
         println("Победил кожаный мешок. Мешок$playerR Пк $compR")
+        return "humanWin"
     }
     if (playerR < compR) {
         println("Победило компуктер. Мешок$playerR Пк $compR")
+         return "PCWin"
     }
     if (playerR == compR) {
         println("У нас ничья. Мешок$playerR Пк $compR ")
+        return "noOneWin"
     }
-
+    return "problem"
 }
