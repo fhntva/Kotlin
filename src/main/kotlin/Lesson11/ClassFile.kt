@@ -56,7 +56,7 @@ class talkingRoom(
     val title: String = "",
     val name: String,
     val numbers: String,
-) {   }
+) {}
 
 
 class roomTape(
@@ -87,8 +87,9 @@ class userSocial
         status = statusOff
 
     }
-        fun printUserInfo(): String {
-            var margin = """
+
+    fun printUserInfo(): String {
+        var margin = """
             
         Никнейм     : ${nickname}
         Статус      : ${status}  
@@ -96,12 +97,31 @@ class userSocial
        
         
     """.trimIndent()
-            return margin
-        }
+        return margin
+    }
 
 
 }
 
+//lesson 11-4
+class FoodCategory
+    (
+    var item: MutableList<Subcategory>,
 
+    ) {}
 
+class Subcategory(
+    var item: String
 
+) {}
+
+class CookingList
+    (
+    var cookforWhat:Subcategory,
+    var ingridient: String,
+    var quant: Int
+) {}
+
+class FavoriteList (
+    var favorite: MutableList<Subcategory> ,
+)
