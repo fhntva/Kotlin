@@ -1,15 +1,13 @@
-
-class NotWeather(first:Int,second:Int,third:String){
+class NotWeather(first: Int, second: Int, third: String) {
 
     var first = first
     var second = second
     var third = third
 
 
-
-  init {
-      println(first)
-      println(second)
-      println(third)
-  }
+    init {
+        println(first)
+        println(second)
+        println(third)
+    }
 }
