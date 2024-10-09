@@ -1,12 +1,14 @@
 package Lesson11
 
+import L1_10.lesson1.lesson10.randMe1to99
+
 
 class UserInf
     (
     val uidUser: Int,
     val logIn: String,
     val Password: String,
-    val mail: String
+    val mail: String,
 ) {
     fun printUserInf(): String {
         var margin = """
@@ -30,7 +32,7 @@ class UserInf2
     val logIn: String,
     var Password: String,
     val mail: String,
-    var bio: String = ""
+    var bio: String = "",
 ) {
     fun printUserInf(): String {
         var margin = """
@@ -111,17 +113,59 @@ class FoodCategory
     ) {}
 
 class Subcategory(
-    var item: String
+    var item: String,
 
-) {}
+    ) {}
 
 class CookingList
     (
-    var cookforWhat:Subcategory,
+    var cookforWhat: Subcategory,
     var ingridient: String,
-    var quant: Int
+    var quant: Int,
 ) {}
 
-class FavoriteList (
-    var favorite: MutableList<Subcategory> ,
+class FavoriteList(
+    var favorite: MutableList<Subcategory>,
 )
+
+
+// L 11-5
+
+class Forum(
+    var usersID: MutableList<String>,             // MutableList<MemberOfForum.userID>,
+    var massages: MutableList<String>,
+    var user: MutableList<String>,
+
+    ) {
+    fun printMe(i: Int) {
+        for (sad in 0..i) {
+            println("Автор: ${user[sad]} Cообщение: ${massages[sad]} ")
+        }
+
+    }
+}
+
+class MemberOfForum(
+    val userID: MutableList<String>,
+    val userName: MutableList<String>,
+) {
+    fun createNewUser(UserName: String): String {
+        userName.add(UserName).toString()
+        val UID = randMe1to99().toString()
+        userID.add(UID)
+        return UID
+
+    }
+}
+
+class MessegeofForum(
+    val userID: MutableList<String>,
+    val messege: MutableList<String>,
+) {
+
+    fun createNewMessage(numbers: String): String {
+        val mass = readln().toString()
+        messege.add(mass)
+        return mass.toString()
+    }
+}
