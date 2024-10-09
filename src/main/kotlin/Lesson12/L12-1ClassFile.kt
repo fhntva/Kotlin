@@ -1,5 +1,5 @@
 
-class weather(){
+class Weather(){
 
     var dayweather = 17
     var nightweather = 3

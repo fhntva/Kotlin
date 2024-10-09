@@ -1,10 +1,10 @@
 package Lesson12
 
-import weather
+import Weather
 
 
 fun main() {
-    var winter = weather()
+    var winter = Weather()
     winter.dayweather = 15
     winter.nightweather = 3
     winter.fallout = "rainy"
@@ -12,7 +12,7 @@ fun main() {
     println(winter.printMe())
 
 
-    var autumm = weather()
+    var autumm = Weather()
 
     autumm.dayweather = 35
     autumm.nightweather = 33
