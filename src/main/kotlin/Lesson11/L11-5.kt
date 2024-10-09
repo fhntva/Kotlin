@@ -48,7 +48,7 @@ fun main() {
         println("forum user")
     println(forumUser.userID[0])
     println(forumUser.userName[0])
-        println("userMassege")  //вывод хуйня не работает
+        println("userMassege")  //вывод хуйня не работает 1
     println(userMassege.userID[0])
     println(userMassege.messege[0])
         println("peaseofCrap")
