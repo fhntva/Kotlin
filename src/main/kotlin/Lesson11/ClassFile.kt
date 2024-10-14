@@ -131,12 +131,14 @@ class FavoriteList(
 
 // L 11-5
 
-class Forum(
-    var usersID: MutableList<String>,             // MutableList<MemberOfForum.userID>,
-    var massages: MutableList<String>,
-    var user: MutableList<String>,
+public class Forum(
+    public var usersID: MutableList<String>,             // MutableList<MemberOfForum.userID>,
+    public var massages: MutableList<String>,
+    public var user: MutableList<String>,
+
 
     ) {
+
     fun printMe(i: Int) {
         for (sad in 0..i) {
             println("Автор: ${user[sad]} Cообщение: ${massages[sad]} ")
