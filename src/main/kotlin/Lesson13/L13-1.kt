@@ -3,9 +3,9 @@ package Lesson13
   fun main ()
   {
       var humanContact = Contact(
-          name = null.toString(),
+          name = null,
           number = null,
-          company = null.toString(),  //not fully correct
+          company = null,
       )
         humanContact.name = "Andrey"
       humanContact.number = 89993332211
