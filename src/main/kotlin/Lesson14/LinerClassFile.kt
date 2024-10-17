@@ -5,6 +5,7 @@ open class Liner(
     val speed:Int,
     val capacity:Int,
     val people: Int,
+    val trap:String ="Горизонтальный трап",
 
     )
 {
@@ -15,7 +16,8 @@ open class Liner(
             Скорость:    $speed
             Вместимость: $capacity
             Люди:        $people
-                        
+            Погрузка:    $trap 
+                       
         """.trimIndent()
         return println(printer)
     }
@@ -28,7 +30,8 @@ class Icebreaker(
     capacity: Int,
     people: Int,
     val crushIce:Boolean = true,
-) :Liner(name, speed, capacity, people,)
+    trap: String = "Кормовая погрузка"
+) :Liner(name, speed, capacity, people, trap, )
 {
     override fun printMe() {
         var printer="""
@@ -37,6 +40,7 @@ class Icebreaker(
             Скорость:    $speed
             Вместимость: $capacity
             Люди:        $people
+            Погрузка:    $trap
             КрушуЛед:    $crushIce
             
         """.trimIndent()
@@ -49,8 +53,9 @@ class CargoLiner(
     name: String,
     speed: Int,
     capacity: Int,
-    people: Int
-) :Liner(name, speed, capacity, people,)
+    people: Int,
+    trap:String ="Погрузочный кран" ,
+) :Liner(name, speed, capacity, people,trap,)
 {
 
 }
