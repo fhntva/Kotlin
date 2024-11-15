@@ -19,7 +19,6 @@ class PrecipitationAmount(
     var precipitationAmount:Int,
 ):WeatherStationStats()
 
-
 class WeatherServer()
 {
  fun massages( tempture:Int, precipitationAmount: Int )

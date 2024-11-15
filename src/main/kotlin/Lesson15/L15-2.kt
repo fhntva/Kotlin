@@ -28,5 +28,4 @@ fun main ()
 
     WeatherServer().massages(temp.temperature,amount.precipitationAmount)
     WeatherServer().massages(temp1.temperature,amount1.precipitationAmount)
-
 }
