@@ -1,13 +1,13 @@
 package Lesson15
 
-interface swim
+interface Swim
 {
     fun swim()
     {
         return println("Swimming")
     }
 }
-interface walk
+interface Walk
 {
     fun walk()
     {
@@ -15,10 +15,11 @@ interface walk
 
     }
 }
-interface fly
+interface Fly
 {
     fun fly()
     {
         return println("Flying")
     }
+
 }

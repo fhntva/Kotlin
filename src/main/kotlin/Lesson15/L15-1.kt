@@ -12,4 +12,5 @@ fun main()
     val duck = Duck()
     duck.walk()
     duck.swim()
+
 }

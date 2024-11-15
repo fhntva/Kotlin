@@ -1,14 +1,14 @@
 package Lesson15
 
-abstract class Animal:swim,walk,fly
+abstract class Animal:Swim,Walk,Fly
 
-class Crucian():swim
+class Crucian():Swim
 {
     override fun swim() {
         super.swim()
     }
 }
-class Gull():swim,walk
+class Gull():Swim,Walk
 {
     override fun swim() {
         super.swim()
@@ -18,7 +18,7 @@ class Gull():swim,walk
         super.walk()
     }
 }
-class Duck():swim,walk
+class Duck():Swim,Walk
 {
     override fun swim() {
         super.swim()
