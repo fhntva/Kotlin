@@ -96,8 +96,7 @@ class userSocial
         Никнейм     : ${nickname}
         Статус      : ${status}  
         Аватар      : ${avatar}
-       
-        
+          
     """.trimIndent()
         return margin
     }
