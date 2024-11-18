@@ -15,8 +15,7 @@ fun main ()
 
         )
 
-    find(piano.id)
-    find(buttons.id)
-        // piano.find(piano.id) //Не работает?
+
+         piano.find(piano.id)
 
 }
