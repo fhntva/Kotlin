@@ -1,7 +1,7 @@
 package Lesson18
 
-fun main() {
-    println("colourise")
+fun main()
+{
     var circle = Circle(3, 4)
     var box = Box(3, 66)
     var pointer = Pointer(33, 44)
@@ -12,13 +12,12 @@ fun main() {
 
     var shitList = listOf(circle, box, pointer)
     for (element in shitList) {
-        element.draw(element.x, element.y)
+        element.draw()
 
     }
     var shitList1 = listOf(circle1, box1, pointer1)
     for (element in shitList1) {
-        element.draw(xDouble = element.xDouble, yDouble = element.yDouble)
+        element.draw()
 
     }
-
 }
